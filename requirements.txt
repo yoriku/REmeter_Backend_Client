@@ -1,0 +1,9 @@
+azure-cosmos
+boto3
+Flask
+Flask-Cors
+mediapipe
+numpy
+Pillow
+python-dotenv
+pytz
