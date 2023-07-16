@@ -1,23 +1,34 @@
----
-title: Flask
-description: A popular minimal server framework for Python
-tags:
-  - python
-  - flask
----
+# ERmeter_Backend_client
 
-# Python Flask Example
+![イメージ画像](/img/top_image.jpg) 
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
+7月8日から9日にかけて実施されたKDDI Developers HacksのGグループの成果物の一部です。  
+チームの皆様やチューターの方々と協力することによって、最優秀賞を受賞させていただきました。ありがとうございます。  
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+## Concept
+### Problems
+![開催者の課題点](/img/problem1.jpg) 
+![参加者の課題点](/img/problem2.jpg) 
 
-## ✨ Features
+### Solution
+![解決策](/img/solution.jpg) 
 
-- Python
-- Flask
+## Overview of proposed system
+![システム全体像](/img/proposed_system.jpg) 
+![システムの機能](/img/function.jpg) 
 
-## 💁‍♀️ How to use
+## About this repo
 
-- Install Python requirements `pip install -r requirements.txt`
-- Start the server for development `python3 main.py`
+このレポジトリーでは、参加者側にルームの一覧を提示する機能と、
+提案システムの肝となる、送られてきた**参加者の画像から表情とリアクションを推定する機能**を備えています。  
+  
+他の機能は、その機能を担当したプログラム作成者のレポジトリーに公開されているため、以下のURLを参照ください。  
+
+[フロントエンド](https://github.com/Melonps/REmetor-Frontend)
+[開催者側のバックエンド](https://github.com/Panda17TK/REmetor-Backend-Host-pub)
+
+## Special Thanks
+
+本システムの開発において、インフラ整備やプログラム作成を助力いただきましたチューターさん
+並びに、ともにシステムを開発を行いレポジトリーを公開してくださったチームメンバーに厚く感謝申し上げます。  
+また、本システムのプレゼンで魅力を最大限引き出してくださったチームメンバーにも同じく厚く感謝申し上げます。  
